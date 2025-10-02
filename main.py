@@ -9,7 +9,7 @@ DATABASE_URL = os.getenv("DATABASE_URL") or "postgresql://user1:harsh123@localho
 
 app = FastAPI(title="Medicine Search API")
 
-# Pydantic model for results
+
 class MedicineOut(BaseModel):
     id: int
     name: str
