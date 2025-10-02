@@ -86,7 +86,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
     Swagger UI: http://127.0.0.1:8000/docs
 
 ReDoc UI: http://127.0.0.1:8000/redoc
-📊 3. Benchmarking
+ 3. Benchmarking
 3.1 Run Queries
 
 Open psql:
