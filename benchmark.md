@@ -1,4 +1,4 @@
-# Benchmark Report
+## Benchmark Report
 
 This report evaluates query performance for the 1Pharmacy Hackathon search system using PostgreSQL.
 
