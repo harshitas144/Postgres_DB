@@ -53,6 +53,7 @@ async def fetch_results(pool, query_type, query_text, limit=20):
 
 async def main():
     #Load Benchmark queries
+    #
     with open(BENCHMARK_FILE, "r") as f:
         benchmark_data = json.load(f)
 
