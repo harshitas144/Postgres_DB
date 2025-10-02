@@ -52,7 +52,7 @@ async def fetch_results(pool, query_type, query_text, limit=20):
     return [r["name"] for r in rows]
 
 async def main():
-    # Load benchmark queries
+    #Load Benchmark queries
     with open(BENCHMARK_FILE, "r") as f:
         benchmark_data = json.load(f)
 
@@ -82,3 +82,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
